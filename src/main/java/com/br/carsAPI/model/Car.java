@@ -70,4 +70,15 @@ public class Car {
     public void setCreatedAt(LocalDate createdAt) {
         this.createdAt = createdAt;
     }
+
+    @Override
+    public String toString() {
+        return "Car [" +
+                "id: " + this.getId() +
+                ", brand: " + this.getBrand() +
+                ", model: " + this.getModel() +
+                ", valuer: " + this.getValue() +
+                ", createdAt: " + this.getCreatedAt() +
+                "]";
+    }
 }
