@@ -4,4 +4,4 @@ services:
     container_name: 'car-sales-api'
     build: .
     ports:
-      - "8080:8080"
+      - "8082:8082"
