@@ -1,7 +1,10 @@
 package com.br.carsAPI.model;
 
+import org.springframework.data.annotation.CreatedDate;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -10,11 +13,12 @@ import java.time.LocalDate;
 public class Car {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String brand;
     private String model;
     private BigDecimal value;
+    @CreatedDate
     private LocalDate createdAt;
 
     public Car (){

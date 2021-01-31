@@ -5,9 +5,9 @@ CREATE TABLE car (
   brand VARCHAR(25) NOT NULL,
   model VARCHAR(25) NOT NULL,
   value DOUBLE DEFAULT NULL,
-  created_at DATE DEFAULT SYSDATE()
+  created_at DATE
 );
 
-INSERT INTO car (brand, model, value) VALUES
+/*INSERT INTO car (brand, model, value) VALUES
   ('Classic', 'Corsa', '20000'),
-  ('EcoSport', 'Ford', '50000');
+  ('EcoSport', 'Ford', '50000');*/
