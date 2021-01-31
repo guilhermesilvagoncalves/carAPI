@@ -1,13 +1,13 @@
-package com.br.carSalesAPI;
+package com.br.carsAPI;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CarSalesApiApplication {
+public class CarsApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CarSalesApiApplication.class, args);
+		SpringApplication.run(CarsApiApplication.class, args);
 	}
 
 }

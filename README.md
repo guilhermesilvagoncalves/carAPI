@@ -1,9 +1,13 @@
 ## To run application
 
-###Pre-requisites
+### Pre-requisites
 `docker`
 
 `docker-composer`
+
+### Compile application
+
+`./mvnw install`
 
 ### Building containers
 
