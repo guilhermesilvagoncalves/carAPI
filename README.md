@@ -1,3 +1,7 @@
+## Class Diagram
+
+[Application class diagram](classDiagram/class_diagram.png)
+
 ## To run application
 
 ### Pre-requisites

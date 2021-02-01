@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-public class Controllers {
+public class CarController {
 
     @Autowired
     private CarsService carsService;
